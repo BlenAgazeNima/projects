@@ -1,6 +1,5 @@
 import time
-
-def main():
+def countdown_timer():
     count_down_time=int(input("Enter the countdown time interms of second: "))
     # Use input interms of second
 
@@ -22,4 +21,6 @@ def main():
         i=i-1
         # Break the loop
     print("TIME'S UP!")
+def main():
+    countdown_timer()
 main()
